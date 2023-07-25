@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
 }
 body{
   font-family: montserrat;
@@ -60,6 +64,16 @@ a.active,a:hover{
 #check{
   display: none;
 }
+
+/* ---------------- */
+.homeHeading {
+  background-color: '#d3d3d3';
+}
+
+#home {
+  text-align: center;
+}
+
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
