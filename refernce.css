@@ -96,7 +96,7 @@ a.active,a:hover{
 }
 
 .homeText {
-  background-color: white;
+  background-color: rgb(253, 245, 255);
   padding: 10px 20px;
   border-radius: 20px;
 }
@@ -110,7 +110,7 @@ a.active,a:hover{
 }
 
 .homeMain {
-  background-color: white;
+  background-color: rgb(253, 245, 255);
   margin: 20px 0 0 0;
   padding: 30px 20px 20px 20px;
   border-radius: 20px;
@@ -146,7 +146,7 @@ a.active,a:hover{
 }
 
 .aboutMain {
-  background-color: white;
+  background-color: rgb(253, 245, 255);
   margin: 10px 0 0 0;
   padding: 30px 20px 20px 20px;
   border-radius: 20px;
@@ -162,8 +162,17 @@ a.active,a:hover{
   transition: ease-in-out 0.5s;
 }
 
+.aboutFlex {
+  display: flex;
+  justify-content: center;
+}
 
-
+.genre {
+  background-color: rgb(253, 245, 255);
+  margin: 20px;
+  padding: 40px;
+  border-radius: 20px;
+}
 
 
 
