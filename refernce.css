@@ -189,6 +189,19 @@ a.active,a:hover{
   display: none;
 } */
 
+.bgImg {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 1300px;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 40px;
+  border-radius: 40px;
+
+}
 
 
 
