@@ -48,39 +48,92 @@
     </nav>
     <div class="background">
     </div>
-    <div class="content">
+    <div id="home" class="content">
       <div class="homeHeading">
-      <h2 id="home" >Home</h2>
-      <p>Audio is sound that is within the acoustic range of human hearing. It is the audible portion on the spectrum of sound frequencies, distinct from inaudible sounds heard by certain animals or used in science and medicine.</p>
-      <p>The five main characteristics of sound waves include wavelength, amplitude, frequency, time period and velocity.</p>
+        <div style="display: flex; justify-content: center;">
+          <h2  class="home">Home</h2>
+        </div>
+        <div class="homeText">
+          <p>Audio is sound that is within the acoustic range of human hearing. It is the audible portion on the spectrum of sound frequencies, distinct from inaudible sounds heard by certain animals or used in science and medicine.</p>
+          <p>The five main characteristics of sound waves include wavelength, amplitude, frequency, time period and velocity.</p>
+        </div>
       </div>
-      <ol>
-      <li><h3>Wavelength:</h3>
-        <ul>
-          <li>Wavelength can be defined as the distance between two successive crests or troughs of a wave. It is measured in the direction of the wave.</li>
-        </ul>
-      </li>
-      <li><h3>Amplitude:</h3>
-        <ul>
-          <li>The amplitude of a sound wave is the measure of the height of the wave. The amplitude of a sound wave can be defined as the loudness or the amount of maximum displacement of vibrating particles of the medium from their mean position when the sound is produced.</li>
-        </ul>
-      </li>
-      <li><h3>Frequency:</h3>
-        <ul>
-          <li>Frequency, sometimes referred to as pitch, is the number of times per second that a sound pressure wave repeats itself. A drum beat has a much lower frequency than a whistle, and a bullfrog call has a lower frequency than a cricket. The lower the frequency, the fewer the oscillations.</li>
-        </ul>
-      </li>
-      <li><h3>Time period:</h3>
-        <ul>
-          <li>The time taken to complete one vibration in the density of the medium is called the time period of the sound wave. It is represented by the symbol T. Its SI unit is second (s).</li>
-        </ul>
-      </li>
-      <li><h3>Velocity:</h3>
-        <ul>
-          <li>The sound velocity through a given material is the distance that sound energy will propagate in that material in a given time and is a function of material density, the material's acoustic impedance, and the material's temperature.</li>
-        </ul>
-      </li>
-      </ol>
+      <div class="homeMain">
+        <div>
+          <div class="homePair">
+            <h3 class="homePairHeading">>Wavelength:</h3>
+            <p class="homePara">Wavelength can be defined as the distance between two successive crests or troughs of a wave. It is measured in the direction of the wave. </p>
+          </div>
+          <div class="homePair">
+            <h3 class="homePairHeading">>Amplitude:</h3>  
+            <p class="homePara">The amplitude of a sound wave is the measure of the height of the wave. The amplitude of a sound wave can be defined as the loudness or the amount of maximum displacement of vibrating particles of the medium from their mean position when the sound is produced</p>
+          </div>
+          <div class="homePair">
+            <h3 class="homePairHeading">>Frequency:</h3>
+            <p class="homePara">Frequency, sometimes referred to as pitch, is the number of times per second that a sound pressure wave repeats itself. A drum beat has a much lower frequency than a whistle, and a bullfrog call has a lower frequency than a cricket. The lower the frequency, the fewer the oscillations.</p>
+          </div>
+          <div class="homePair">
+            <h3 class="homePairHeading">>Time period:</h3>
+            <p class="homePara">The time taken to complete one vibration in the density of the medium is called the time period of the sound wave. It is represented by the symbol T. Its SI unit is second (s).</p>
+          </div>
+          <div class="homePair">
+            <h3 class="homePairHeading">>Velocity:</h3>
+            <p class="homePara">The sound velocity through a given material is the distance that sound energy will propagate in that material in a given time and is a function of material density, the material's acoustic impedance, and the material's temperature.</p>
+          </div>
+        </div>
+      </div>
+      <div id="#About" class="About">
+        <div style="display: flex; justify-content: center;">
+          <h2  class="home">About</h2>
+        </div>
+        <div class="aboutMain">
+          <p style="text-align: center; padding-bottom: 20px;">In this section we are going to dicuss about the technology we are using to know the genre of the audio</p>
+          <div>
+            <div class="homePair">
+              <h3 class="homePairHeading">>Wavelength:</h3>
+              <p class="homePara">Wavelength can be defined as the distance between two successive crests or troughs of a wave. It is measured in the direction of the wave. </p>
+            </div>
+            <div class="homePair">
+              <h3 class="homePairHeading">>Amplitude:</h3>  
+              <p class="homePara">The amplitude of a sound wave is the measure of the height of the wave. The amplitude of a sound wave can be defined as the loudness or the amount of maximum displacement of vibrating particles of the medium from their mean position when the sound is produced</p>
+            </div>
+            <div class="homePair">
+              <h3 class="homePairHeading">>Frequency:</h3>
+              <p class="homePara">Frequency, sometimes referred to as pitch, is the number of times per second that a sound pressure wave repeats itself. A drum beat has a much lower frequency than a whistle, and a bullfrog call has a lower frequency than a cricket. The lower the frequency, the fewer the oscillations.</p>
+            </div>
+            <div class="homePair">
+              <h3 class="homePairHeading">>Time period:</h3>
+              <p class="homePara">The time taken to complete one vibration in the density of the medium is called the time period of the sound wave. It is represented by the symbol T. Its SI unit is second (s).</p>
+            </div>
+            <div class="homePair">
+              <h3 class="homePairHeading">>Velocity:</h3>
+              <p class="homePara">The sound velocity through a given material is the distance that sound energy will propagate in that material in a given time and is a function of material density, the material's acoustic impedance, and the material's temperature.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <h2 id="About">About</h2>
       <p>In this section we are going to dicuss about the technology we are using to know the genre of the audio</p>
       <h3>CNNs:</h3>
@@ -93,7 +146,7 @@
         <input type="file" id="audioFile" accept="audio/*" />
         <button type="submit">Upload</button>
     </form>
-    </div>
+
   
       
   </body>
