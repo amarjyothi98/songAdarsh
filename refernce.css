@@ -176,8 +176,18 @@ a.active,a:hover{
 
 
 
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ad6aff;
+  color: white;
+  cursor: pointer;
+}
 
-
+/* .input {
+  display: none;
+} */
 
 
 
